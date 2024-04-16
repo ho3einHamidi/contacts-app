@@ -1,6 +1,6 @@
 import "./searchBar.css";
 import searchIcon from "../../Icons/search-icon.png";
-export function SearchBar() {
+export function SearchBar({value,onChange}) {
   return (
     <div className="search-bar">
       <div className="wrapper">
@@ -8,7 +8,7 @@ export function SearchBar() {
 
         <img src={searchIcon} className="search-icon" alt="search-icon"></img>
         </div>
-        <input className="input" type="text" placeholder="Search"></input>
+        <input value={value} onChange={(e) => onChange(e.target.value)} className="input" type="text" placeholder="Search"></input>
       </div>
     </div>
   );
