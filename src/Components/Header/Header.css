@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    .contact-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .create-icon{
+        width: 24px;
+        height: 24px;
+    }
+}
