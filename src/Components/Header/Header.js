@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 import contactIcon from "../../Icons/contact-icon.png";
 import createIcon from "../../Icons/create-icon.svg";
 export function Header() {
