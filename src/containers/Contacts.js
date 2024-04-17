@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-import "./App.css";
-import { ContactList } from "./Components/ContactList/ContactsList";
-import { Header } from "./Components/Header/Header";
-import { SearchBar } from "./Components/SearchBar/SearchBar";
+import "../contacts.css";
+import { ContactList } from "../Components/ContactList/ContactsList";
+import { Header } from "../Components/Header/Header";
+import { SearchBar } from "../Components/SearchBar/SearchBar";
 import axios from "axios";
-import { dataApiFormatter } from "./utils/dataApiFormatter/dataApiFormatter";
-function App() {
+import { dataApiFormatter } from "../utils/dataApiFormatter/dataApiFormatter";
+function Contacts() {
   const [contacts, setContacts] = useState(null);
   const [searchValue,setSearchValue] = useState("");
 
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contacts;

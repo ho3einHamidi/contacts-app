@@ -1,6 +1,6 @@
 import "./header.css";
 import contactIcon from "../../Icons/contact-icon.png";
-import createIcon from "../../Icons/create-icon.svg";
+import createIcon from "../../Icons/create-icon.png";
 export function Header() {
   return (
     <div className="header">
